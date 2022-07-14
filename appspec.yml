@@ -4,20 +4,20 @@ files:
   - source: /
     destination: /var/www/html/codedeployAws
 hooks:
-  BeforeInstall:
-    - location: 
-      timeout: 
-      runas: 
-  AfterInstall:
-    - location: 
-      timeout: 
-      runas: 
-  ApplicationStart:
-    - location: 
-    - location: 
-      timeout: 
-      runas: 
-  ApplicationStop:
-    - location: 
-      timeout: 
-      runas: 
+  # BeforeInstall:
+  #   - location: 
+  #     timeout: 
+  #     runas: 
+  # AfterInstall:
+  #   - location: 
+  #     timeout: 
+  #     runas: 
+  # ApplicationStart:
+  #   - location: 
+  #   - location: 
+  #     timeout: 
+  #     runas: 
+  # ApplicationStop:
+  #   - location: 
+  #     timeout: 
+  #     runas: 
